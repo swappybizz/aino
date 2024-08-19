@@ -12,14 +12,15 @@ db = client["aino_db"]
 agent_collection = db["agents"]
 session_collection = db["client_sessions"]
 
-
+LOGO_URL_SMALL = "aino.png"
+st.logo(image="aino.png",icon_image=LOGO_URL_SMALL) 
 st.set_page_config(
     page_title="Assistant Forge Tools",
     page_icon="🔥",
     layout="wide",
-    initial_sidebar_state="collapsed",
+
 )
-st.logo("experline.png")
+
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 if "username" not in st.session_state:

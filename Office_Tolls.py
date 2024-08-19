@@ -10,9 +10,9 @@ SECRET_PHRASE = st.secrets["secret_phrase"]
 client = MongoClient(MONGO_URI)
 db = client["aino_db"]
 users_collection = db["users"]
-LOGO_URL_SMALL = "experline.png"
 st.set_page_config(page_title="ExpertLine", page_icon="🧠", layout="wide")
-st.logo(image="experline.png",icon_image=LOGO_URL_SMALL)    
+LOGO_URL_SMALL = "aino.png"
+st.logo(image="aino.png",icon_image=LOGO_URL_SMALL)    
 # Function to hash passwords
 
 def show_tutorials():

@@ -13,12 +13,12 @@ db = client["aino_db"]
 agent_collection = db["agents"]
 agent_client_session = db["client_sessions"]
 
-# st.logo("experline.png")
+LOGO_URL_SMALL = "aino.png"
+st.logo(image="aino.png",icon_image=LOGO_URL_SMALL) 
 st.set_page_config(
-    page_title="ExpertLine",
-    page_icon="🧊",
+    page_title="Assistant Forge Tools",
+    page_icon="🔥",
     layout="wide",
-    initial_sidebar_state="expanded")
 
 if "loaded_agent" not in st.session_state:
     st.session_state.loaded_agent = None
