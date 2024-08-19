@@ -177,7 +177,7 @@ else:
             - #### :blue[ExpertLine] :gray[ provides a pipeline to track data requests and their sources.]
             - ####  :gray[Monitors and monetises data usage and access.]
             - ####  :gray[Provides a way to track royalties for creator benefits.]
-            - ####  :gray[Provides a pipeline to track accountability for clients' benefit.]
+            - ####  :gray[Provides a pipeline to ] orange:[track accountability] :gray[ for clients' benefit.]
             """
             # if st.button("Run A-Ro Pipeline",use_container_width=True, key="A-Ro Pipeline"):
             #     run_sample_aro()
@@ -191,7 +191,7 @@ else:
         with midcol2:
             """
             # ExpertSolve System
-            - #### :blue[ExpertLine] :gray[is one stop solution for varied expert-backed truth of the matter.]
+            - #### :blue[ExpertLine] :gray[get Expertese for ]orange:[cheap].
             - #### :gray[Never be limited by the lack of expertise.]
             - #### :gray[Exclusive access on demand.]
             """
