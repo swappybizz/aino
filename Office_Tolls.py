@@ -146,13 +146,11 @@ else:
         # if data_store_button:
         #     run_sample_expert()
     """
-    ### Recent Updates
+    #### Recent Updates
     """
     with st.container(border=True,height=200):
-        """- ExpertLine is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
-        """- ExpertLine is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
-        """- ExpertLine is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
-    
+        """- ExpertLine Begining its Beta testing phase. Sign up now to participate."""
+
 
     with st.container(border=False):
         """""" 
