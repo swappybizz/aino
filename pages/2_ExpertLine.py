@@ -19,8 +19,8 @@ st.set_page_config(
     page_title="ExpertLine",
     page_icon="🧊",
     layout="wide",
-    initial_sidebar_state="expanded",
-)
+    initial_sidebar_state="expanded"
+    )
 
 if "loaded_agent" not in st.session_state:
     st.session_state.loaded_agent = None
@@ -38,28 +38,23 @@ def fetch_agent_response(user_query, agent, session):
     print(f" AIM: {agent['agent_userTitle']}")
     print(f"Instructions: {agent['agent_instructions']}")
     print(f"Agent Experience_knowledge_base: {str(agent['Experience_knowledge_base'])}")
-    # print(f"Document: {agent['docs_store'][0]['content'][:25]}")
     print(f"Session: {session}")
     print(f"SessionAIM: {session['client_goal']}")
     print(f"Outputs: {str(session['outputs'])}")
-    
-    
     
     all_doc_string = ""
     for doc in agent["docs_store"]:
         all_doc_string += doc["content"]
         all_doc_string += " "
         all_doc_string += "\n"
-        
     client_ai_chat = ""
     for chat in session["client_AI_chat"]:
         for key, value in chat.items():
             client_ai_chat += value
             client_ai_chat += " "
             client_ai_chat += "\n"
-            
     appended_knowledge = str(agent["Experience_knowledge_base"]) 
-        
+    
     print(f"all_doc_string: {all_doc_string[:25]}")
     print(f"client_ai_chat: {client_ai_chat}")
     print(f"appended_knowledge: {appended_knowledge[:25]}")
