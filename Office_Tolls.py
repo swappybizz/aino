@@ -158,9 +158,9 @@ else:
         with midcol2:
             """
             # Attend to multiple clients
-            - ### :blue[ExpertLine] :gray[provides LLM supported distribution of your expertese to cater to multiple clients simultaneously.]
-            - ### :gray[Never assumes or hallucinates, it just requests you to provide the truth.]
-            - ### :gray[Remembers, what you provide. So you only have to teach it once.]
+            - #### :blue[ExpertLine] :gray[provides LLM supported distribution of your expertese to cater to multiple clients simultaneously.]
+            - #### :gray[Never assumes or hallucinates, it just requests you to provide the truth.]
+            - #### :gray[Remembers, what you provide. So you only have to teach it once.]
             """
             # if st.button("Run Effort Multiplier",use_container_width=True, key="Effort Multiplier"):
             #     run_sample_EM()
@@ -174,10 +174,10 @@ else:
         with midcol1:
             """
             # Accountability & Royalty pipeline
-            - ### :blue[ExpertLine] :gray[ provides a pipeline to track data requests and their sources.]
-            - ###  :gray[Monitors and monetises data usage and access.]
-            - ###  :gray[Provides a way to track royalties for creator benefits.]
-            - ###  :gray[Provides a pipeline to track accountability for clients' benefit.]
+            - #### :blue[ExpertLine] :gray[ provides a pipeline to track data requests and their sources.]
+            - ####  :gray[Monitors and monetises data usage and access.]
+            - ####  :gray[Provides a way to track royalties for creator benefits.]
+            - ####  :gray[Provides a pipeline to track accountability for clients' benefit.]
             """
             # if st.button("Run A-Ro Pipeline",use_container_width=True, key="A-Ro Pipeline"):
             #     run_sample_aro()
@@ -191,9 +191,9 @@ else:
         with midcol2:
             """
             # ExpertSolve System
-            - ### :blue[ExpertLine] :gray[is one stop solution for varied expert-backed truth of the matter.]
-            - ### :gray[Never be limited by the lack of expertise.]
-            - ### :gray[Exclusive access on demand.]
+            - #### :blue[ExpertLine] :gray[is one stop solution for varied expert-backed truth of the matter.]
+            - #### :gray[Never be limited by the lack of expertise.]
+            - #### :gray[Exclusive access on demand.]
             """
             # if st.button("Run ExpertSolve System",use_container_width=True, key="ExpertSolve System"):
             #     run_sample_expert()
