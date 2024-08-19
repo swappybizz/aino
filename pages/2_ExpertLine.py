@@ -17,7 +17,7 @@ agent_client_session = db["client_sessions"]
 
 
 st.set_page_config(
-    page_title="AINO Expertise",
+    page_title="ExpertLine",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -197,7 +197,7 @@ def search_agents(search_query, field):
     return matched_agents
 
 
-@st.dialog(title="AINO Expertise", width="large")
+@st.dialog(title="Expertline", width="large")
 def run_search_starter(search_query):
     st.title("Search Results")
     agent_name_results = search_agents(search_query, "agent_name")
@@ -231,7 +231,7 @@ def run_search_starter(search_query):
                 st.rerun()
 
 
-@st.dialog(title="AINO Experstise", width="large")
+@st.dialog(title="Experstline", width="large")
 def run_project_starter(search_query):
     for i in range(5):
         with st.form(key=f"agent__{i+1}"):

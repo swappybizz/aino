@@ -11,7 +11,7 @@ client = MongoClient(MONGO_URI)
 db = client["aino_db"]
 users_collection = db["users"]
 LOGO_URL_SMALL = "aino.png"
-st.set_page_config(page_title="AINO", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="ExpertLine", page_icon="🧠", layout="wide")
 st.logo(image="aino.png",icon_image=LOGO_URL_SMALL)
 # Function to hash passwords
 
@@ -21,8 +21,8 @@ st.logo(image="aino.png",icon_image=LOGO_URL_SMALL)
 
 def show_tutorials():
     st.write(    """
-    ### :gray[How AINO Works]
-    ## :blue[AINO] does two things
+    ### :gray[How ExpertLine Works]
+    ## :blue[ExpertLine] does two things
     """
     )
     with st.container(border=True):
@@ -42,14 +42,14 @@ def show_tutorials():
         """
         
     "### :blue[Tutorials]"
-    with st.expander(":red[Tutorial]- How to use AINO for distributing expertese"):
+    with st.expander(":red[Tutorial]- How to use ExpertLine for distributing expertese"):
     
         """
 
         # You can share and distribute your expertese with ease
             
-        - ### With :blue[AINO] you get access to a aommunication & distribution bot that represents you and sources its words :red[only from you].
-        - ### :blue[AINO] never ❌ Assumes or hallucinates, if it's in any doubt, it just :blue[asks you for the infor].
+        - ### With :blue[ExpertLine] you get access to a aommunication & distribution bot that represents you and sources its words :red[only from you].
+        - ### :blue[ExpertLine] never ❌ Assumes or hallucinates, if it's in any doubt, it just :blue[asks you for the infor].
             
         You can create Agents to represent any activity that consists of a digital input and output. We currently support pdf, docx, and text based conversations.
         We slowly include support for other types of files.
@@ -117,7 +117,7 @@ else:
     with col1:
         with st.container(border=True,height=400):
             """
-            ## :blue[AINO]
+            ## :blue[ExpertLine]
             # Truth receptors for effort multipliers.
             #### :gray[Attend multiple data clients at the same time. Persist new data & ownership for expanding knowledge base.]
             """
@@ -127,7 +127,7 @@ else:
     with col2:
         with st.container(border=True,height=400):
             """
-            ## :blue[AINO] 
+            ## :blue[ExpertLine] 
             # Accountability & Royalty pipeline for decision critical data.
             #### :gray[Track data requests and their sources. Monitor & Monitise data usage and access.]
             """
@@ -138,7 +138,7 @@ else:
     with col3:
         with st.container(border=True,height=400):
             """
-            ## :blue[AINO] 
+            ## :blue[ExpertLine] 
             # Storage & Source for the truth of the matter.
             #### :gray[Expertise data store for tailored data requests. Subscription based exclusive access on Demand. ]
             """
@@ -149,9 +149,9 @@ else:
     ### Recent Updates
     """
     with st.container(border=True,height=200):
-        """- AINO is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
-        """- AINO is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
-        """- AINO is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
+        """- ExpertLine is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
+        """- ExpertLine is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
+        """- ExpertLine is looking for Participants for the upcoming Live hack-a-way-out event. Sign up now to participate."""
     
 
     with st.container(border=False):
@@ -163,7 +163,7 @@ else:
         with midcol2:
             """
             # Attend to multiple clients
-            - ### :blue[AINO] :gray[provides LLM supported distribution of your expertese to cater to multiple clients simultaneously.]
+            - ### :blue[ExpertLine] :gray[provides LLM supported distribution of your expertese to cater to multiple clients simultaneously.]
             - ### :gray[Never assumes or hallucinates, it just requests you to provide the truth.]
             - ### :gray[Remembers, what you provide. So you only have to teach it once.]
             """
@@ -179,7 +179,7 @@ else:
         with midcol1:
             """
             # Accountability & Royalty pipeline
-            - ### :blue[AINO] :gray[ provides a pipeline to track data requests and their sources.]
+            - ### :blue[ExpertLine] :gray[ provides a pipeline to track data requests and their sources.]
             - ###  :gray[Monitors and monetises data usage and access.]
             - ###  :gray[Provides a way to track royalties for creator benefits.]
             - ###  :gray[Provides a pipeline to track accountability for clients' benefit.]
@@ -196,7 +196,7 @@ else:
         with midcol2:
             """
             # ExpertSolve System
-            - ### :blue[AINO] :gray[is one stop solution for varied expert-backed truth of the matter.]
+            - ### :blue[ExpertLine] :gray[is one stop solution for varied expert-backed truth of the matter.]
             - ### :gray[Never be limited by the lack of expertise.]
             - ### :gray[Exclusive access on demand.]
             """
