@@ -174,7 +174,7 @@ else:
         with midcol1:
             """
             # Accountability & Royalty pipeline
-            - #### :blue[ExpertLine] :gray[ provides a pipeline to track data requests and their sources.]
+            - #### :blue[ExpertLine] :gray[ provides a pipeline] :orange[to track sources.]
             - ####  :gray[Monitors and monetises data usage and access.]
             - ####  :gray[Provides a way to track royalties for creator benefits.]
             - ####  :gray[Provides a pipeline to track accountability for clients' benefit.]
@@ -191,7 +191,7 @@ else:
         with midcol2:
             """
             # ExpertSolve System
-            - #### :blue[ExpertLine] :gray[get Expertese for cheap.]
+            - #### :blue[ExpertLine] :gray[brings] :orange[expertese for cheap.]
             - #### :gray[Never be limited by the lack of expertise.]
             - #### :gray[Exclusive access on demand.]
             """
