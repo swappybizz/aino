@@ -14,6 +14,8 @@ agent_collection = db["agents"]
 agent_client_session = db["client_sessions"]
 
 
+
+
 st.logo("experline.png")
 st.set_page_config(
     page_title="ExpertLine",
@@ -41,7 +43,8 @@ def fetch_agent_response(user_query, agent, session):
     print(f"Session: {session}")
     print(f"SessionAIM: {session['client_goal']}")
     print(f"Outputs: {str(session['outputs'])}")
-    
+
+
     all_doc_string = ""
     for doc in agent["docs_store"]:
         all_doc_string += doc["content"]
