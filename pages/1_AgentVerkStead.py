@@ -19,7 +19,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
-st.logo("aino.png")
+st.logo("experline.png")
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 if "username" not in st.session_state:
