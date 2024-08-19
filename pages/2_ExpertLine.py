@@ -7,8 +7,6 @@ from openai import OpenAI
 from datetime import datetime
 import json
 from fuzzywuzzy import process
-
-
 MONGO_URI = st.secrets["mongo_uri"]
 client = MongoClient(MONGO_URI)
 db = client["aino_db"]
