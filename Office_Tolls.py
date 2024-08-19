@@ -148,7 +148,7 @@ else:
     """
     #### Recent Updates
     """
-    with st.container(border=True,height=200):
+    with st.container(border=True):
         """- ExpertLine Begining its Beta testing phase. Sign up now to participate."""
 
 
