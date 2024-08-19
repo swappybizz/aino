@@ -113,34 +113,35 @@ if st.session_state.logged_in:
     
     
 else:
+    """### :blue[Expertline]"""
+    """
+    ## :orange[Expert] Pipelines for :orange[Expertise] Distribution
+    """
     col1,col2,col3 = st.columns(3)
     with col1:
-        with st.container(border=True,height=400):
+        with st.container(border=True,height=300):
             """
-            ## :blue[ExpertLine]
-            # Truth receptors for effort multipliers.
-            #### :gray[Attend multiple data clients at the same time. Persist new data & ownership for expanding knowledge base.]
+            ##### Truth receptors for effort multipliers.
+            ## :gray[Attend multiple data clients at the same time. Persist new data & ownership for expanding knowledge base.]
             """
         # run_expert_button = st.button(":blue[Run Multiplier]",use_container_width=True)
         # if run_expert_button:
         #     run_sample_EM()
     with col2:
-        with st.container(border=True,height=400):
+        with st.container(border=True,height=300):
             """
-            ## :blue[ExpertLine] 
-            # Accountability & Royalty pipeline for decision critical data.
-            #### :gray[Track data requests and their sources. Monitor & Monitise data usage and access.]
+            ##### Accountability & Royalty pipeline for decision critical data.
+            ## :gray[Track data requests and their sources. Monitor & Monitise data usage and access.]
             """
         # text_accountability_pipeline = st.button(":blue[Simulate A-Ro Report] ",
         #                                          use_container_width=True)
         # if text_accountability_pipeline:
         #     run_sample_aro()
     with col3:
-        with st.container(border=True,height=400):
+        with st.container(border=True,height=300):
             """
-            ## :blue[ExpertLine] 
-            # Storage & Source for the truth of the matter.
-            #### :gray[Expertise data store for tailored data requests. Subscription based exclusive access on Demand. ]
+            ##### Storage & Source for the truth of the matter.
+            ## :gray[Expertise data store for tailored requests. Exclusivity as Service. ]
             """
         # data_store_button = st.button(":blue[Run ExpertSolve System]",use_container_width=True)
         # if data_store_button:
