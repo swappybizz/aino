@@ -121,9 +121,9 @@ else:
             # Truth receptors for effort multipliers.
             #### :gray[Attend multiple data clients at the same time. Persist new data & ownership for expanding knowledge base.]
             """
-        run_expert_button = st.button(":blue[Run Multiplier]",use_container_width=True)
-        if run_expert_button:
-            run_sample_EM()
+        # run_expert_button = st.button(":blue[Run Multiplier]",use_container_width=True)
+        # if run_expert_button:
+        #     run_sample_EM()
     with col2:
         with st.container(border=True,height=400):
             """
@@ -131,10 +131,10 @@ else:
             # Accountability & Royalty pipeline for decision critical data.
             #### :gray[Track data requests and their sources. Monitor & Monitise data usage and access.]
             """
-        text_accountability_pipeline = st.button(":blue[Simulate A-Ro Report] ",
-                                                 use_container_width=True)
-        if text_accountability_pipeline:
-            run_sample_aro()
+        # text_accountability_pipeline = st.button(":blue[Simulate A-Ro Report] ",
+        #                                          use_container_width=True)
+        # if text_accountability_pipeline:
+        #     run_sample_aro()
     with col3:
         with st.container(border=True,height=400):
             """
@@ -142,9 +142,9 @@ else:
             # Storage & Source for the truth of the matter.
             #### :gray[Expertise data store for tailored data requests. Subscription based exclusive access on Demand. ]
             """
-        data_store_button = st.button(":blue[Run ExpertSolve System]",use_container_width=True)
-        if data_store_button:
-            run_sample_expert()
+        # data_store_button = st.button(":blue[Run ExpertSolve System]",use_container_width=True)
+        # if data_store_button:
+        #     run_sample_expert()
     """
     ### Recent Updates
     """
@@ -167,8 +167,8 @@ else:
             - ### :gray[Never assumes or hallucinates, it just requests you to provide the truth.]
             - ### :gray[Remembers, what you provide. So you only have to teach it once.]
             """
-            if st.button("Run Effort Multiplier",use_container_width=True, key="Effort Multiplier"):
-                run_sample_EM()
+            # if st.button("Run Effort Multiplier",use_container_width=True, key="Effort Multiplier"):
+            #     run_sample_EM()
     st.divider()       
     with st.container(border=False):
         """""" 
@@ -184,8 +184,8 @@ else:
             - ###  :gray[Provides a way to track royalties for creator benefits.]
             - ###  :gray[Provides a pipeline to track accountability for clients' benefit.]
             """
-            if st.button("Run A-Ro Pipeline",use_container_width=True, key="A-Ro Pipeline"):
-                run_sample_aro()
+            # if st.button("Run A-Ro Pipeline",use_container_width=True, key="A-Ro Pipeline"):
+            #     run_sample_aro()
     st.divider()
     with st.container(border=False):
         """""" 
@@ -200,5 +200,5 @@ else:
             - ### :gray[Never be limited by the lack of expertise.]
             - ### :gray[Exclusive access on demand.]
             """
-            if st.button("Run ExpertSolve System",use_container_width=True, key="ExpertSolve System"):
-                run_sample_expert()
+            # if st.button("Run ExpertSolve System",use_container_width=True, key="ExpertSolve System"):
+            #     run_sample_expert()
