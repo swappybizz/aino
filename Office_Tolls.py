@@ -158,7 +158,8 @@ else:
         with midcol2:
             """
             # Attend to multiple clients
-            - #### :blue[ExpertLine] :gray[provides LLM supported distribution of your expertese to cater to multiple clients simultaneously.]
+            - #### :blue[ExpertLine] :gray[provides digitally distributed expertese.]
+            - #### :blue[Attend multiple clients] :gray[simultaneously.]
             - #### :gray[Never assumes or hallucinates, it just requests you to provide the truth.]
             - #### :gray[Remembers, what you provide. So you only have to teach it once.]
             """
