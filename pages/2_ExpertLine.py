@@ -18,7 +18,7 @@ st.logo(image="aino.png",icon_image=LOGO_URL_SMALL)
 st.set_page_config(
     page_title="Assistant Forge Tools",
     page_icon="🔥",
-    layout="wide",
+    layout="wide",)
 
 if "loaded_agent" not in st.session_state:
     st.session_state.loaded_agent = None

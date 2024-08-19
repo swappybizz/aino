@@ -17,9 +17,7 @@ st.logo(image="aino.png",icon_image=LOGO_URL_SMALL)
 st.set_page_config(
     page_title="Assistant Forge Tools",
     page_icon="🔥",
-    layout="wide",
-
-)
+    layout="wide",)
 
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
