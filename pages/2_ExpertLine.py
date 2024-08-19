@@ -13,16 +13,12 @@ db = client["aino_db"]
 agent_collection = db["agents"]
 agent_client_session = db["client_sessions"]
 
-
-
-
 st.logo("experline.png")
 st.set_page_config(
     page_title="ExpertLine",
     page_icon="🧊",
     layout="wide",
-    initial_sidebar_state="expanded"
-    )
+    initial_sidebar_state="expanded")
 
 if "loaded_agent" not in st.session_state:
     st.session_state.loaded_agent = None
